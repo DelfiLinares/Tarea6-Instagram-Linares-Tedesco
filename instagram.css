@@ -1,0 +1,220 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100%;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/* HEADER */
+#logo img{
+    margin: 5px;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 5px;
+    display: none;
+}
+
+#nombreUser{
+    text-align: left;
+    font-size: 17px;
+    width: 100%;
+    margin: 10px 0px 6px 20px ;
+    color: white;
+}
+ /* HEADER */
+
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#contenedor{
+    display: block;
+}
+
+#info_perfil { 
+    width:100%;
+    height: 25%;
+    display: inline-block;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+#info_perfil1{
+    width:30%;
+    height:100%;
+    float: left;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#info_perfil2{
+    width: 65%;
+    height:100%;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* img de info_perfil 1*/
+.ftPerfil img{
+    width: 80%;
+    height:100%;
+    border-radius: 100%;
+    margin: 5px 0px 0px 20px;
+}
+/* img de info_perfil 1*/
+
+
+/* div de info_perfil 2 (nums) */
+.info_user{
+    width: 90%;
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+.info_user ul { 
+    list-style-type: none;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+.num{
+    font-weight: 700;
+}
+
+.info_user li {
+    text-align: center;
+}
+/* div de info_perfil 2 (nums) */
+
+
+.nomybio {
+    width: 100%;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.nomybio p{
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.nomybio a{
+    margin-top:2px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(123, 169, 230);
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+button{
+    font-size: 12px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 9px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 90%;
+} 
+
+/* -------------------------------------- */
+
+.posts{
+    display:flex;
+    width:100%;
+    height:70%;
+    margin-bottom: 50px;
+}
+
+.ftos1, .ftos2{
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-bottom: 0px;
+}
+.ftos2{
+    margin-top: 0px;
+}
+
+.ftos1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.ftos1 li{
+    display:inline-block;
+    width: 30%;
+    height: 30%;
+} 
+
+.ftos2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.ftos2 li{
+    display:inline-block;
+    width: 30%;
+    height: 30%;
+} 
+/* ------------------ */
+
+
+footer{
+    display:flex;
+    margin: 0px;
+    margin-top: 40%;
+}
+
+.menu{ 
+    margin:-25px;
+}
+
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.menu li img{
+    width: 50%;
+    height: 50%;
+}
+
+.fotoperfil{
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+}
+
+@media(min-width: 600px){
+    #nombreUser{
+        display: none;
+    }
+    #logo img{
+        display: flex;
+        justify-content: center;
+    }
+}
